@@ -6,6 +6,12 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <b>E-Mail</b>
+        {% for email in site.email %}
+         <p>{{email}}</p>
+        {% endfor %}
+        <b>Github</b>
+        <p>{{ site.github_page }}</p>
         
         {% include contact.md %}
 
