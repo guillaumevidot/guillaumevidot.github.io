@@ -2,9 +2,9 @@
 
 {% include_relative about.md %}
 
-<!-- ## Publications
+## Publications
+
 {% include_relative publications.md %}
--->
 
 ## Contact
 
