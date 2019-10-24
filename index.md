@@ -5,7 +5,3 @@
 ## Publications
 
 {% include_relative publications.md %}
-
-## Contact
-
-{% include_relative contact.md %}
