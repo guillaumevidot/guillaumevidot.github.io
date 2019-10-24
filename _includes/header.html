@@ -6,6 +6,8 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        {%- include contact.md -%}
 
         {% if site.show_downloads %}
         <ul class="downloads">
