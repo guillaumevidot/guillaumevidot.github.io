@@ -6,11 +6,14 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <b>E-Mail</b>
+        <p><b>E-Mail</b></p>
         {% for email in site.email %}
          <a href="mailto:{{email}}">{{email}}</a>
+         {% if forloop.last != true %}
+          <br>
+         {% endif %}
         {% endfor %}
-        <b>Github</b>
+        <p><b>Github</b></p>
         <p><a href="{{ site.github_page }}">{{ site.github_page }}</a></p>
         
         
