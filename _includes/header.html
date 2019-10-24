@@ -8,12 +8,12 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         <b>E-Mail</b>
         {% for email in site.email %}
-         <p>{{email}}</p>
+         <p><a href="mailto:{{email}}">{{email}}</a></p>
         {% endfor %}
         <b>Github</b>
-        <p>{{ site.github_page }}</p>
+        <p><a href="{{ site.github_page }}">{{ site.github_page }}</a></p>
         
-        {% include contact.md %}
+        
 
         {% if site.show_downloads %}
         <ul class="downloads">
