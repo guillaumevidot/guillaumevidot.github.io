@@ -1,7 +1,7 @@
-## About Me
+## About
 
 {% include_relative about.md %}
 
-## Contact Me
+## Contact
 
 {% include_relative contact.md %}
