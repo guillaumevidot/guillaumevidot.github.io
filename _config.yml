@@ -2,5 +2,6 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 
 title: Eric Guillaume Vidot
+logo: github_profile_img.png
 description: Certifiability. Artificial Intelligence. Machine Learning. Deep Learning.
 google_analytics: UA-150659735-1
