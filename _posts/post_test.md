@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Guillaume
+published: true
 ---
 This post is a test and one day it will probably evolve.
 
