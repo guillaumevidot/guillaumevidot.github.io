@@ -12,3 +12,7 @@ title: Blog
     </li>
   {% endfor %}
 </ul>
+{% for email in site.email %}
+<a href="mailto:{{email}}">{{email}}</a>
+<br>
+{% endfor %}
