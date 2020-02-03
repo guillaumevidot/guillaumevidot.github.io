@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 author: Guillaume
 ---
 This post is a test and one day it will probably evolve.
