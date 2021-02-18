@@ -2,7 +2,7 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 
 title: Guillaume Vidot
-logo: github_profile_img.png
+logo: github_profile_img.jpg
 email:
   - eric.vidot@irit.fr
   - eric-guillaume.vidot@airbus.com
