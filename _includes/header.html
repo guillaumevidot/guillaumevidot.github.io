@@ -2,7 +2,7 @@
         <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" style="border-radius:50%"/>
+          <img src="{{site.logo | relative_url}}" alt="Logo" class="image"/>
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
