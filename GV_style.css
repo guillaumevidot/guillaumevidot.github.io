@@ -3,9 +3,10 @@
   color: #00189b;
 }
 
+@media print, screen and (max-width: 960px)
 .center {
   margin: auto;
   width: 50%;
-  border: 3px solid green;
   padding: 10px;
 }
+
