@@ -2,7 +2,7 @@
         <h1 class="title">{{ site.title | escape }}</h1>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" class="image"/>
+          <img src="{{site.img-profil | relative_url}}" alt="Logo" class="image"/>
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
