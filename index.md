@@ -2,9 +2,8 @@
 layout: home
 ---
 
-~~
 
-## Abou
+## About me
 
 {% include_relative about.md %}
 
