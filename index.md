@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## About
+## A
 
 {% include_relative about.md %}
 
