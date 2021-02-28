@@ -1,11 +1,11 @@
 <header class="center">
         <h1 class="title">{{ site.title | escape }}</h1>
         
-        {% if site.logo %}
+        {% if site.img-profil %}
           <img src="{{site.img-profil | relative_url}}" alt="Logo" class="image"/>
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>{{ site.title-description | default: site.github.project_tagline }}</p>
         <b>E-Mail</b><br>
         {% for email in site.email %}
          <a href="mailto:{{email}}">{{email}}</a>
