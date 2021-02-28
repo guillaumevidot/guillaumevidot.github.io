@@ -5,10 +5,10 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 
 title: Guillaume Vidot
-logo: github_profile_img.jpg
+img-profil: github_profile_img.jpg
 email:
   - eric.vidot@irit.fr
   - eric-guillaume.vidot@airbus.com
 github_page: https://github.com/guillaumevidot
-description: Certifiability. Avionics. Regulation. Standards. Artificial Intelligence. Machine Learning. Deep Learning.
+title-description: Certifiability. Avionics. Regulation. Standards. Artificial Intelligence. Machine Learning. Deep Learning.
 google_analytics: UA-150659735-1
