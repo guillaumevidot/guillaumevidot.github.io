@@ -1,7 +1,7 @@
 markdown: kramdown
 baseurl: ""
 url: "" 
-theme: jekyll-theme-minimal
+theme: minima
 
 title: Guillaume Vidot
 logo: github_profile_img.jpg
