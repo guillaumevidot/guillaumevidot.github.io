@@ -1,4 +1,6 @@
 markdown: kramdown
+baseurl: ""
+url: "" 
 theme: jekyll-theme-minimal
 
 title: Guillaume Vidot
