@@ -4,7 +4,7 @@ layout: home
 
 ---
 
-## About me
+## About
 
 {% include_relative about.md %}
 
