@@ -2,9 +2,7 @@
 layout: home
 ---
 
-truc
-
-## Abo
+## About
 
 {% include_relative about.md %}
 
