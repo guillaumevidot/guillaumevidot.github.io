@@ -11,3 +11,7 @@ layout: home
 ## Publications
 
 {% include_relative publications.md %}
+
+## Teaching
+
+{% include_relative teaching.md %}
